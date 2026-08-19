@@ -31,5 +31,29 @@ gap: 20px;
 margin: 10px;
 color: var(--branco);
 text-transform: uppercase;
-font-size: 14px;
+font-size: 20px;
 }
+
+.menu a{
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: var(--azul-claro);
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
