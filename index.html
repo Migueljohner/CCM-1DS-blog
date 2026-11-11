@@ -50,5 +50,20 @@
         <p> Feito por Miguel Santos ©</p>
     </footer>
 </body>
+<script>
+    const botao = documento.querySelectorA11('.botao-curtida');
+    botoes.forEach(botao =>{
+        botao.addEventListener('click', botaoClicado);
+    });
+    
 
+    function botaoClicado(){
+        console.log('Botao clicado')
+        let texto = botao.querySelector('span')
+        texto.textContent++
+
+    }
+ </script>   
 </html>
+
+
